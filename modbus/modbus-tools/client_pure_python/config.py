@@ -1,0 +1,12 @@
+
+
+# 接続先
+HOST = '192.168.0.100'
+
+# Modbus/TCPの定義
+MODBUS_PORT = 5502
+PROTOCOL_ID = 0x0000
+TRANSACTION_ID = 0x0001
+
+# Clientの定義
+CLIENT_ID = 0x01
