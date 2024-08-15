@@ -1,0 +1,26 @@
+
+### GETメソッドの確認
+
+GET http://localhost:3000/api/sayhello
+
+### JSONの確認
+POST http://localhost:3000/api/sayhellojson
+content-type: application/json
+
+{
+    "key": 1
+}
+
+### Rawのbodyの確認
+POST http://localhost:3000/api/sayhellobin
+content-type: application/octet-stream
+bin.data
+
+### JSONの確認
+POST http://localhost:3000/api/login
+content-type: application/json
+
+{
+    "user": "admin",
+    "password": "abc"
+}
